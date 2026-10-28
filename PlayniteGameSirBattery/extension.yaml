@@ -1,0 +1,10 @@
+Id: GameSirBattery_6f0d2f8e
+Name: GameSir 手柄电量
+Author: WWWyyy452
+Version: 1.0
+Module: GameSirBatteryPlugin.dll
+Type: GenericPlugin
+Icon: icon.png
+Links:
+  - Name: GitHub
+    Url: https://github.com/WWWyyy452/GamesirBatteryTray

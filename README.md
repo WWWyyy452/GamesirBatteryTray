@@ -76,6 +76,21 @@ Windows 11 默认会把新图标收进折叠区，点击右下角 `∧` 查看�
 
 右键菜单：电量、设备 MAC、立即刷新、重命名、开机自动启动、退出。双击图标立即刷新。
 
+## Playnite 插件
+
+`PlayniteGameSirBattery/` 是配套的 Playnite 通用插件（.NET Framework 4.6.2），在 Playnite 界面上以置顶浮窗显示手柄电量，适合全屏 / 电视场景。
+
+安装方式二选一：
+
+1. 下载 Release 里的 `GameSirBattery-Playnite.pext`，双击交给 Playnite 安装；
+2. 或把压缩包解压到 `%AppData%\Playnite\Extensions\GameSirBattery\`（里面应直接是 `extension.yaml`、`GameSirBatteryPlugin.dll`、`icon.png`）。
+
+重启 Playnite 后，屏幕右下角会出现 `手柄 灰 71% 粉 80%` 的浮窗：
+
+- 拖动可移动位置，右键菜单可关闭 / 重新显示
+- 每 30 秒刷新一次，读不到设备时显示 `手柄 --`
+- 手柄名称与托盘程序共用 `%AppData%\GameSirBatteryTray\devices.json`
+
 ## 调试脚本
 
 `tools/` 下的 Python 脚本用于确认设备与协议（仅标准库，需要手柄已连接）：
