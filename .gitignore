@@ -1,0 +1,14 @@
+# Build output
+bin/
+obj/
+publish/
+*.user
+*.suo
+.vs/
+
+# Python
+__pycache__/
+*.pyc
+
+# Local data
+devices.json
