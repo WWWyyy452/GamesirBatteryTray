@@ -1,8 +1,16 @@
-# GameSir 启明星2 电量托盘
+# 盖世小鸡 启明星2 电量托盘（GameSir Nova 2 Battery Tray）
 
-在 Windows 通知区域（系统托盘）实时显示 **盖世小鸡启明星2（GameSir Nova 2）** 2.4G 无线手柄电量的托盘小工具，支持同时连接多个手柄。
+在 Windows 通知区域（系统托盘）实时显示 **盖世小鸡 启明星2（GameSir Nova 2，内部代号 T4N2）** 2.4G 无线手柄电量的托盘小工具，支持同时连接多个手柄。
 
 A tiny Windows tray app that shows the battery level of **GameSir Nova 2** controllers connected through the 2.4 GHz dongle. Multiple controllers are supported.
+
+## 适用型号
+
+| 中文名 | 英文名 | 连接方式 | 状态 |
+| --- | --- | --- | --- |
+| 盖世小鸡 启明星2 | GameSir Nova 2（T4N2） | 2.4 GHz 接收器 `VID 0x3537 / PID 0x1098` | 已验证 |
+
+适用场景：想在 Windows 任务栏查看盖世小鸡手柄电量、不想为了看电量去开官方 GameSir Connect 客户端。
 
 ## 特性
 
